@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Simple_Restaurant_App/static/css/main.5ed3bc62.css",
-    "main.js": "/Simple_Restaurant_App/static/js/main.9505f1b9.js",
+    "main.js": "/Simple_Restaurant_App/static/js/main.183f2cf7.js",
     "static/media/reserve3.jpg": "/Simple_Restaurant_App/static/media/reserve3.937cede86cdcc004b4aa.jpg",
     "static/media/reserve2.jpg": "/Simple_Restaurant_App/static/media/reserve2.173bf80cef378d7160c0.jpg",
     "static/media/glass.png": "/Simple_Restaurant_App/static/media/glass.077902efcd315e55aff5.png",
@@ -14,10 +14,10 @@
     "static/media/lemon_desert-img.jpeg": "/Simple_Restaurant_App/static/media/lemon_desert-img.ffd6cf269ac687d03bd6.jpeg",
     "index.html": "/Simple_Restaurant_App/index.html",
     "main.5ed3bc62.css.map": "/Simple_Restaurant_App/static/css/main.5ed3bc62.css.map",
-    "main.9505f1b9.js.map": "/Simple_Restaurant_App/static/js/main.9505f1b9.js.map"
+    "main.183f2cf7.js.map": "/Simple_Restaurant_App/static/js/main.183f2cf7.js.map"
   },
   "entrypoints": [
     "static/css/main.5ed3bc62.css",
-    "static/js/main.9505f1b9.js"
+    "static/js/main.183f2cf7.js"
   ]
 }
