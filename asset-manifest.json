@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Simple_Restaurant_App/static/css/main.5ed3bc62.css",
+    "main.js": "/Simple_Restaurant_App/static/js/main.de41ba12.js",
+    "static/media/reserve3.jpg": "/Simple_Restaurant_App/static/media/reserve3.937cede86cdcc004b4aa.jpg",
+    "static/media/reserve2.jpg": "/Simple_Restaurant_App/static/media/reserve2.173bf80cef378d7160c0.jpg",
+    "static/media/glass.png": "/Simple_Restaurant_App/static/media/glass.077902efcd315e55aff5.png",
+    "static/media/reserve.jpeg": "/Simple_Restaurant_App/static/media/reserve.ae5c1950b1cee958c37b.jpeg",
+    "static/media/clock.png": "/Simple_Restaurant_App/static/media/clock.3b8599e80324a12b931b.png",
+    "static/media/greek_salad-img.jpeg": "/Simple_Restaurant_App/static/media/greek_salad-img.746c67581172b5ab7ded.jpeg",
+    "static/media/person.png": "/Simple_Restaurant_App/static/media/person.8fbe2071025bf1412260.png",
+    "static/media/bruchetta-img.jpeg": "/Simple_Restaurant_App/static/media/bruchetta-img.a5d2b89ae06e218e64d1.jpeg",
+    "static/media/calendar.png": "/Simple_Restaurant_App/static/media/calendar.4b59ba29906c2f748e64.png",
+    "static/media/lemon_desert-img.jpeg": "/Simple_Restaurant_App/static/media/lemon_desert-img.ffd6cf269ac687d03bd6.jpeg",
+    "index.html": "/Simple_Restaurant_App/index.html",
+    "main.5ed3bc62.css.map": "/Simple_Restaurant_App/static/css/main.5ed3bc62.css.map",
+    "main.de41ba12.js.map": "/Simple_Restaurant_App/static/js/main.de41ba12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ed3bc62.css",
+    "static/js/main.de41ba12.js"
+  ]
+}
