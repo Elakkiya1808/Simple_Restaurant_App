@@ -1,10 +1,7 @@
 import React from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
-  const navigate = useNavigate();
-  const location = useLocation();
-
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
@@ -13,27 +10,6 @@ function Navbar() {
     { name: 'Order Online', path: '/order' },
     { name: 'Login', path: '/login' },
   ];
-
-  const handleClick = (path) => {
-    navigate(path);
-  };
-
-  const getActiveLink = () => {
-  const currentPath = location.pathname;
-
-  // Adjust base path if deployed under a subdirectory
-  const base = '/Simple_Restaurant_App'; // replace with your repo name
-
-  const adjustedPath = currentPath.startsWith(base)
-    ? currentPath.replace(base, '') || '/'
-    : currentPath;
-
-  const match = navItems.find(item => adjustedPath === item.path || adjustedPath.startsWith(item.path));
-  return match ? match.path : '/';
-};
-
-
-  const activeLink = getActiveLink();
 
   return (
     <nav className="navbar navbar-expand-lg bg-light py-3">
@@ -46,13 +22,15 @@ function Navbar() {
           <ul className="navbar-nav">
             {navItems.map(({ name, path }) => (
               <li className="nav-item" key={path}>
-                <button
-                  className={`nav-link btn btn-link ${activeLink === path ? 'active' : ''}`}
-                  onClick={() => handleClick(path)}
+                <NavLink
+                  to={path}
+                  className={({ isActive }) =>
+                    `nav-link ${isActive ? 'active' : ''}`
+                  }
                   style={{ textDecoration: 'none' }}
                 >
                   {name}
-                </button>
+                </NavLink>
               </li>
             ))}
           </ul>

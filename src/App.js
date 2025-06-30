@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Specials from './components/Specials';
-import ReservationForm from './components/ReservationForm'; // import your reservation form
+import ReservationForm from './components/ReservationForm'; 
 import ComingSoon from './components/ComingSoon';
 
 function App() {
